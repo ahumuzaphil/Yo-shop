@@ -1,0 +1,156 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Itim', cursive;
+  font-family: 'Lora', serif;
+  font-family: 'Niramit', sans-serif;
+  font-family: 'Pacifico', cursive;
+}
+@media screen  and (max-width: 500px){
+.nav{
+  top: 0;
+  position: sticky;
+  height: 3rem;
+  background-color: rgb(228, 252, 252);
+  box-shadow: 5px 7px rgba(0, 0, 0, 0.2px);
+}
+.nav-content{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-family: 'Itim', cursive;
+font-family: 'Lora', serif;
+font-family: 'Niramit', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+.nav-content :nth-child(2){
+  padding: 5px;
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.sub1{
+  filter: drop-shadow(0 0 0.70rem crimson);
+  color:blueviolet;
+  
+}
+.sub{
+  color: black;
+}
+.nav-content :nth-child(1){
+  text-decoration: none;
+}
+
+h2 span{
+  color: blueviolet;
+}
+.dis{
+  display: block;
+  text-align: center;
+}
+.component{
+  margin: auto;
+  width: 50%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.photo{
+  width: 13rem;
+}
+.sub_head{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.sub-head1{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.btn{
+  position: static;
+  background: blueviolet;
+  border-radius: 4.2rem;
+}
+.component p{
+  margin-bottom: 0.5rem;
+}
+.footer{
+  background: black;
+  color: white; 
+  
+}
+.content_footer{
+  width: 50%;
+  margin: auto;
+  /*margin: 2rem;*/
+}
+.bas :hover{
+  font-size: 1rem;
+}
+.join{
+  background: #ff3399;
+  margin: 1rem 1.6rem;
+  padding: 1.3rem;
+}
+.join_info{
+  position: static;
+  border: none;
+  border-radius: none;
+  margin-top: 1rem;
+}
+.join-h{
+  color: azure;
+}
+.sub_foot{
+  color: #ff3399;
+  margin-top: 1rem;
+}
+.btn_join{
+  margin-top: 1rem;
+  position: static;
+}
+}
+
+
+
