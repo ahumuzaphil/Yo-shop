@@ -2,10 +2,9 @@
 import './App.css';
 import Navbar from './Navbar'
 import Shop from './Shop';
-import Footer from './Footer';
 import { Route, Routes } from 'react-router-dom';
 import Cart from './cart';
-import Join from './join';
+
 import { ShopContextProvider } from './Context/shop-context';
 
 function App() {
@@ -18,8 +17,7 @@ function App() {
     <Route path='cart' element={<Cart />}/>
     
     </Routes>
-    <Join />
-    <Footer />
+    
     </ShopContextProvider>
     </div>
   );

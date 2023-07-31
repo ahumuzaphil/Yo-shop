@@ -9,7 +9,7 @@ export default function Cart(){
     return(
         <div>
             <div>
-                <h2>Cart Items</h2>
+                <h2 className="cart-h">Cart Items</h2>
                 </div>
             <div>
                 {Elec.map((item) => {

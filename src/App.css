@@ -44,6 +44,73 @@
   font-family: 'Niramit', sans-serif;
   font-family: 'Pacifico', cursive;
 }
+.nav{
+  top: 0;
+  position: sticky;
+  height: 3rem;
+  background-color: rgb(228, 252, 252);
+  box-shadow: 5px 7px rgba(0, 0, 0, 0.2px);
+}
+.nav-content{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-family: 'Itim', cursive;
+font-family: 'Lora', serif;
+font-family: 'Niramit', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+.nav-content :nth-child(2){
+  padding: 5px;
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.sub1{
+  filter: drop-shadow(0 0 0.70rem crimson);
+  color:blueviolet;
+  
+}
+.sub{
+  color: black;
+}
+.nav-content :nth-child(1){
+  text-decoration: none;
+}
+
+h2 span{
+  color: blueviolet;
+}
+.shop{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 50%;
+  margin: auto;
+  justify-content: space-around;
+}
+.sub_head{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.dis{
+  width: 50%;
+  margin: auto;
+}
+.component{
+  margin: 3rem;
+}
+.photo{
+  width: 14rem;
+  display: flex;
+  justify-items: center;
+}
+.container_img{
+  height: 14rem;
+}
+
 @media screen  and (max-width: 500px){
 .nav{
   top: 0;
@@ -149,6 +216,37 @@ h2 span{
 .btn_join{
   margin-top: 1rem;
   position: static;
+}
+.cart-item{
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-left: 2rem;
+}
+.cart_btn{
+  display: flex;
+}
+.cart-input{
+  border-color: grey;
+  border-radius: 7px;
+  width: 2rem;
+  padding-left: 1rem;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.cart-info{
+  text-align: justify;
+  align-items: center;
+  display: block;
+  margin-top: 2rem;
+}
+.cart-img{
+  width: 10rem;
+}
+.cart-h{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
 }
 }
 
