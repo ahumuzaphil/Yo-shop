@@ -1,9 +1,8 @@
 import React from 'react';
 import Electronic from './Components/electronic';
 import Elec from './Data/Electronic';
-import Furniture from './Components/furniture';
-import Fur from './Data/Furniture';
-
+import Footer from './Footer';
+import Join from './join';
 
 
 export default function Shop(){
@@ -15,24 +14,18 @@ export default function Shop(){
                data={item}
                /> 
             </div>
+            
         )
     })
-    const furn = Fur.map(item => {
-        return(
-        <div>
-               <Furniture 
-               data={item}
-               /> 
-            </div>
-        )
-    })
+
 
     return(
         <div>
             <h2 className='sub_head'>Tech Electronics</h2>
-            {tech}
-            <h2 className='sub-head1'>Tech Furniture</h2>
-            {furn}
+            
+            <section className='shop'>{tech}</section>
+            <Join />
+            <Footer />
         </div>
     )
 }

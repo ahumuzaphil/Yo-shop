@@ -12,7 +12,9 @@ export default function Electronic(props){
         <div>
             
             <div className='component'>
+                <div className='container_img'>
             <img src={process.env.PUBLIC_URL + product} alt='Item' className='photo' />
+            </div>
             <div className='dis'>
             <p>{name}</p>
             <p>${cost}</p>

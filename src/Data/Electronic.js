@@ -35,6 +35,24 @@ const elec =[
         name: 'webcam',
         cost: 100,
     },
+    {
+        id:7,
+        product:'/table.png',
+        name: 'Dev table',
+        cost: 1000,
+    },
+    {
+        id:8,
+        product:'/chair.png',
+        name: 'Office chair',
+        cost: 380,
+    },
+    {
+        id:9,
+        product:'/table.png',
+        name: 'Dev table',
+        cost: 420,
+    },
 ]
 
 export default elec;
