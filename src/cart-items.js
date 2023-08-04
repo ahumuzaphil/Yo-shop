@@ -10,7 +10,7 @@ export const CartItem = (props) =>{
         <div className='cart-item'>
             <img src={product} className='cart-img'/>
             <div className='cart-info'>
-            <p>{name}</p>
+            <b><p>{name}</p></b>
             <p>${cost}</p>
             <div className='cart_btn'>
                 <Button onClick={() => removeFromCart(id)}>-</Button>
