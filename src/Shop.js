@@ -21,7 +21,7 @@ export default function Shop(){
 
     return(
         <div>
-            <h2 className='sub_head'>Tech Electronics</h2>
+            <h2 className='sub_head'>Tech Equipments</h2>
             
             <section className='shop'>{tech}</section>
             <Join />

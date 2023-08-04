@@ -14,7 +14,7 @@ export default function Cart(){
             <div>
                 {Elec.map((item) => {
                     if(cartItems[item.id] !== 0){
-                        return <CartItem data={item}/>
+                        return <section className="cart-comp"><CartItem data={item}/></section>
                     }
                 })}
             </div>

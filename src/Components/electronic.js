@@ -16,7 +16,7 @@ export default function Electronic(props){
             <img src={process.env.PUBLIC_URL + product} alt='Item' className='photo' />
             </div>
             <div className='dis'>
-            <p>{name}</p>
+            <p className='num'>{name}</p>
             <p>${cost}</p>
             <Button type="primary"  className='btn' onClick={() => addToCart(id)}>
                 Add to cart{ cartItemAmount > 0 && <>({cartItemAmount})</> }

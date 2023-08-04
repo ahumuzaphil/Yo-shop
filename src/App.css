@@ -110,8 +110,76 @@ h2 span{
 .container_img{
   height: 14rem;
 }
+.join{
+  background: #ff3399;
+  margin: 1rem 1.6rem;
+  padding: 1.3rem;
+}
+.join_info{
+  position: static;
+  border: none;
+  border-radius: none;
+  margin-top: 1rem;
+}
+.join-h{
+  color: azure;
+}
+.btn_join{
+  margin-top: 1rem;
+  position: static;
+}
+.footer{
+  background: black;
+  color: white; 
+  padding: 2rem;
+}
+.content_footer{
+  width: 50%;
+  margin: auto;
+  /*margin: 2rem;*/
+  display: flex;
+  
+}
+.sub_footer{
+  margin-right: 3.5rem;
+}
+.cart-h{
+  text-align: center;
+  margin: 1rem;
+}
+.cart-item{
+ /* width: 50%;
+  margin: auto;*/
+  display: flex;
+ /* margin-left: 35%;*/
+}
+.cart-info{
+  margin-left: 2rem;
+  display: block;
+  margin-top: 2rem;
+}
+.cart-input{
+  width: 2rem;
+  height: 2rem;
+  padding-left: 1.5rem;
+  border-radius: 4px;
+}
+.cart-comp{
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  /*margin-left: 25rem;
+  margin-right: 20rem;*/
+  width: 35rem;
+  padding: 1.2rem;
+  border-radius: 7px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.num{
+  color: blueviolet;
+}
 
-@media screen  and (max-width: 500px){
+@media only screen and (max-width: 500px){
 .nav{
   top: 0;
   position: sticky;
@@ -155,6 +223,9 @@ h2 span{
   display: block;
   text-align: center;
 }
+.num{
+  width: 2rem;
+}
 .component{
   margin: auto;
   width: 50%;
@@ -188,6 +259,7 @@ h2 span{
   
 }
 .content_footer{
+  display: block;
   width: 50%;
   margin: auto;
   /*margin: 2rem;*/
@@ -219,9 +291,6 @@ h2 span{
 }
 .cart-item{
   display: flex;
-  width: 50%;
-  margin: auto;
-  margin-left: 2rem;
 }
 .cart_btn{
   display: flex;
@@ -247,6 +316,17 @@ h2 span{
   display: flex;
   justify-content: center;
   margin: 1rem;
+}
+.cart-comp{
+  background: none;
+  box-shadow: none;
+  width: 50%;
+  margin: auto;
+  margin-left: 1rem;
+}
+.shop{
+  display: block;
+  margin-left: 2.5rem;
 }
 }
 
